@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="Matrix.exe"/>
+    <OBJFILES value="_OBJS\Matrix.obj _OBJS\Principal.obj _OBJS\EstadoError.obj 
+      _OBJS\Acceso.obj _OBJS\AjusteCero.obj _OBJS\Asistente.obj 
+      _OBJS\AyudaCalColor.obj _OBJS\CajaColor.obj _OBJS\CalColor.obj 
+      _OBJS\CalibradoPeso.obj _OBJS\CalTamano.obj _OBJS\Clave.obj 
+      _OBJS\CoeficientesPesado.obj _OBJS\UComparaConf.obj 
+      _OBJS\ConfigElectroimanes.obj _OBJS\ConfigEncoder.obj 
+      _OBJS\ConfigPesado.obj _OBJS\ConfigSerie.obj _OBJS\Configuracion.obj 
+      _OBJS\ConfigurarGrafico.obj _OBJS\ConfigVariadores.obj 
+      _OBJS\ConfigVision.obj _OBJS\UConflictos.obj _OBJS\ContarTazas.obj 
+      _OBJS\UControlProp.obj _OBJS\EditaDefectos.obj _OBJS\EditClaseColor.obj 
+      _OBJS\FinalPartida.obj _OBJS\InfoSalida.obj _OBJS\Limites.obj 
+      _OBJS\logform.obj _OBJS\NuevoGrupo.obj _OBJS\NuevoGrupoColor.obj 
+      _OBJS\nuevogrupopeso.obj _OBJS\NuevoGrupoTamano.obj 
+      _OBJS\NuevoMapaColor.obj _OBJS\NuevoPrograma1.obj _OBJS\NuevoPrograma4.obj 
+      _OBJS\NuevoPrograma2.obj _OBJS\NuevoPrograma3.obj 
+      _OBJS\PlanoElectroimanes.obj _OBJS\PlanoVision.obj _OBJS\PlanoEncoder.obj 
+      _OBJS\PlanoGenericas.obj _OBJS\PlanoPesado.obj _OBJS\PlanoVariador.obj 
+      _OBJS\Rejilla.obj _OBJS\seguimiento.obj _OBJS\Salidas.obj 
+      _OBJS\sincronismos.obj _OBJS\UTranslateForm.obj _OBJS\tarar.obj 
+      _OBJS\ValorTaras.obj _OBJS\VerificacionPesado.obj _OBJS\VisorTReal.obj 
+      _OBJS\ZoomMapaCol.obj _OBJS\Productores.obj _OBJS\Botones.obj 
+      _OBJS\ClasesConfigSerie.obj _OBJS\ClasesConfig.obj 
+      _OBJS\ClasesConfigVis.obj _OBJS\ClasesEstadisticas.obj 
+      _OBJS\ClasesEstado.obj _OBJS\ClasesMantBase.obj _OBJS\ClasesGrupos.obj 
+      _OBJS\ClasesMant.obj _OBJS\ClasesSalidas.obj _OBJS\ClusterColor.obj 
+      _OBJS\global.obj _OBJS\ImpurityMeasures.obj _OBJS\MTrackBar.obj 
+      _OBJS\NuevoElemento.obj _OBJS\ROUNDBUTTON.obj _OBJS\TComSerie.obj 
+      _OBJS\TComLan.obj _OBJS\TComPorts.obj _OBJS\TCopiaGruposColor.obj 
+      _OBJS\TCrearMsg.obj _OBJS\TGUICabecera.obj _OBJS\TElectros.obj 
+      _OBJS\TEncoder.obj _OBJS\TGenericas.obj _OBJS\TGUIPartida.obj 
+      _OBJS\TGUIGrupos.obj _OBJS\TGUIProgramas.obj _OBJS\THost.obj 
+      _OBJS\TLanServer.obj _OBJS\TLogSistema.obj _OBJS\TMensajesVision.obj 
+      _OBJS\TMsgData.obj _OBJS\TPaneles.obj _OBJS\TPanelSecundario.obj 
+      _OBJS\TPLCs.obj _OBJS\TPesado.obj _OBJS\TProcesarMsg.obj 
+      _OBJS\TreeUtil.obj _OBJS\TTranslation.obj _OBJS\TVision.obj 
+      _OBJS\TVariadores.obj _OBJS\Util.obj _OBJS\visclases.obj _OBJS\visfun.obj 
+      _OBJS\sobreescr.obj _OBJS\IPDetectada.obj _OBJS\ConfigEntorno.obj 
+      _OBJS\ClasesConfigEntorno.obj _OBJS\UActualizacion.obj 
+      _OBJS\ClasesEntidades.obj _OBJS\TFinsNode.obj _OBJS\UMonitorTiempos.obj 
+      _OBJS\TSocketFin.obj"/>
+    <RESFILES value="Matrix.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) _forms\Principal.dfm _forms\EstadoError.dfm _forms\Acceso.dfm 
+      _forms\AjusteCero.dfm _forms\Asistente.dfm _vision\forms\AyudaCalColor.dfm 
+      _vision\forms\CajaColor.dfm _vision\forms\CalColor.dfm 
+      _forms\CalibradoPeso.dfm _vision\forms\CalTamano.dfm _forms\Clave.dfm 
+      _forms\CoeficientesPesado.dfm _forms\UComparaConf.dfm 
+      _forms\ConfigElectroimanes.dfm _forms\ConfigEncoder.dfm 
+      _forms\ConfigPesado.dfm _forms\ConfigSerie.dfm _forms\Configuracion.dfm 
+      _forms\ConfigurarGrafico.dfm _forms\ConfigVariadores.dfm 
+      _forms\ConfigVision.dfm _forms\UConflictos.dfm _forms\ContarTazas.dfm 
+      _forms\UControlProp.dfm _vision\forms\EditaDefectos.dfm 
+      _forms\EditClaseColor.dfm _forms\FinalPartida.dfm _forms\InfoSalida.dfm 
+      _forms\Limites.dfm _forms\logform.dfm _forms\NuevoGrupo.dfm 
+      _vision\forms\NuevoGrupoColor.dfm _forms\nuevogrupopeso.dfm 
+      _forms\NuevoGrupoTamano.dfm _vision\forms\NuevoMapaColor.dfm 
+      _forms\NuevoPrograma1.dfm _forms\NuevoPrograma4.dfm 
+      _forms\NuevoPrograma2.dfm _forms\NuevoPrograma3.dfm 
+      _forms\PlanoElectroimanes.dfm _forms\PlanoVision.dfm 
+      _forms\PlanoEncoder.dfm _forms\PlanoGenericas.dfm _forms\PlanoPesado.dfm 
+      _forms\PlanoVariador.dfm _vision\forms\Rejilla.dfm _forms\seguimiento.dfm 
+      _forms\Salidas.dfm _forms\sincronismos.dfm _forms\UTranslateForm.dfm 
+      _forms\tarar.dfm _forms\ValorTaras.dfm _forms\VerificacionPesado.dfm 
+      _vision\forms\VisorTReal.dfm _vision\forms\ZoomMapaCol.dfm 
+      _forms\Productores.dfm _forms\Botones.dfm _forms\NuevoElemento.dfm 
+      _vision\forms\sobreescr.dfm _forms\IPDetectada.dfm 
+      _forms\ConfigEntorno.dfm _forms\UActualizacion.dfm _forms\UMonitorTiempos.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="NMFast50.lib"/>
+    <SPARELIBS value="Vcl50.lib Vclx50.lib bcbsmp50.lib VCLDB50.lib VCLBDE50.lib dclocx50.lib 
+      clave.lib crystal.lib CPORTLIBCB5.lib OscilosPack.lib INILib.lib 
+      NMFast50.lib"/>
+    <PACKAGES value="Vcl50.bpi Vclx50.bpi bcbsmp50.bpi ibsmp50.bpi VCLDB50.bpi VCLBDE50.bpi 
+      vcldbx50.bpi bcbie50.bpi vclie50.bpi Inetdb50.bpi Inet50.bpi dclocx50.bpi 
+      bcb2kaxserver50.bpi CPORTLIBCB5.bpi dclusr50.bpi Crystal.bpi clave.bpi 
+      oscilospack.bpi inilib.bpi"/>
+    <PATHCPP value=".;_forms;_vision\forms;_clases;_vision\CLASES;_vision\auxiliar;_auxilar"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="tlink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;_RTLDLL;USEPACKAGES"/>
+    <MAINSOURCE value="Matrix.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder5\Projects\&quot;;&quot;C:\Archivos de programa\Borland\CBuilder5\Projects\&quot;;forms;_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;$(BCB)\include;$(BCB)\include\vcl;_libinc;_INCLUDE;oscilos"/>
+    <LIBPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder5\Projects\&quot;;$(BCB)\Projects\Lib;&quot;C:\Archivos de programa\Borland\CBuilder5\Projects\&quot;;C:\MaxI\;forms;oscilos;_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;&quot;C:\Archivos de programa\Borland\CBuilder5\Projects\lib\&quot;;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-aus"/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl50.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-N2_OBJS -N0_OBJS -$Y+ -$W -$O- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-I_OBJS -D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=10
+MinorVer=2
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1034
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=Maxfrut
+FileDescription=
+FileVersion=1.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=Matrix
+ProductVersion=10.2
+Comments=
+
+[Excluded Packages]
+$(BCB)\Bin\dcltqr50.bpl=TeeChart 5.0 for QuickReport Components Design Package
+$(BCB)\Bin\dcltee50.bpl=TeeChart 5.0 Components
+$(BCB)\Bin\dclib50.bpl=InterBase Data Access Components
+$(BCB)\Bin\dclqrt50.bpl=QuickReport Components
+
+[HistoryLists\hlIncludePath]
+Count=8
+Item0=C:\Program Files (x86)\Borland\CBuilder5\Projects\;C:\Archivos de programa\Borland\CBuilder5\Projects\;forms;_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;$(BCB)\include;$(BCB)\include\vcl;_libinc;_INCLUDE;oscilos
+Item1=C:\Archivos de programa\Borland\CBuilder5\Projects\;forms;_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;$(BCB)\include;$(BCB)\include\vcl;_libinc;_INCLUDE;oscilos
+Item2=C:\Archivos de programa\Borland\CBuilder5\Projects;forms;_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;$(BCB)\include;$(BCB)\include\vcl;_libinc;_INCLUDE;oscilos
+Item3=forms;_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;$(BCB)\include;$(BCB)\include\vcl;_libinc;_INCLUDE;oscilos
+Item4=_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;$(BCB)\include;$(BCB)\include\vcl;_libinc;_INCLUDE;oscilos
+Item5=_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;$(BCB)\include;$(BCB)\include\vcl;_libinc;_INCLUDE
+Item6=_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;$(BCB)\include;$(BCB)\include\vcl;_libinc
+Item7=_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=8
+Item0=C:\Program Files (x86)\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;C:\Archivos de programa\Borland\CBuilder5\Projects\;C:\MaxI\;forms;oscilos;_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;C:\Archivos de programa\Borland\CBuilder5\Projects\lib\;$(BCB)\lib\obj;$(BCB)\lib
+Item1=$(BCB)\Projects\Lib;C:\Archivos de programa\Borland\CBuilder5\Projects\;C:\MaxI\;forms;oscilos;_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;C:\Archivos de programa\Borland\CBuilder5\Projects\lib\;$(BCB)\lib\obj;$(BCB)\lib
+Item2=C:\Archivos de programa\Borland\CBuilder5\Projects\;C:\MaxI\;forms;oscilos;_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;C:\Archivos de programa\Borland\CBuilder5\Projects\lib\;$(BCB)\lib\obj;$(BCB)\lib
+Item3=C:\Archivos de programa\Borland\CBuilder5\Projects;C:\MaxI\;forms;oscilos;_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;C:\Archivos de programa\Borland\CBuilder5\Projects\lib\;$(BCB)\lib\obj;$(BCB)\lib
+Item4=C:\MaxI\;forms;oscilos;_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;C:\Archivos de programa\Borland\CBuilder5\Projects\lib\;$(BCB)\lib\obj;$(BCB)\lib
+Item5=C:\MaxI;forms;oscilos;_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;C:\Archivos de programa\Borland\CBuilder5\Projects\lib\;$(BCB)\lib\obj;$(BCB)\lib
+Item6=forms;oscilos;_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;C:\Archivos de programa\Borland\CBuilder5\Projects\lib\;$(BCB)\lib\obj;$(BCB)\lib
+Item7=_auxilar;_vision\auxiliar;_vision\CLASES;_clases;_vision\forms;_forms;C:\Archivos de programa\Borland\CBuilder5\Projects\lib\;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=1
+Item0=_OBJS
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
